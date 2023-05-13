@@ -52,6 +52,108 @@ main .logo-principal {
 }
 
 main .logo-principal img {
-    width: 272px;
-    height: 92px;
+    width: 372px;
+    height: 120px;
+}
+
+main .main {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main .buscador {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main .buscador:hover {
+    box-shadow: 0 1px 6px 0 rgb(137, 137, 137);
+}
+
+main .main input {
+    width: 420px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main .buscador .otros-buscadores img {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+main .main .buscador .lupa img {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+}
+
+main .botones {
+    width: 530px;
+    margin: 0 auto;
+
+}
+
+main .botones div {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+main .botones button {
+    height: 35px;
+    background-color: f2f2f2;
+    border: none;
+    font-size: 14px;
+    color: 5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+main .botones button:hover {
+    box-shadow: 0 1px 6px 0 rgb(137, 137, 137);
+    border: 2px solid #8cd309;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #dfe1e5;
+}
+
+footer ul {
+    margin: 10PX;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left {
+    justify-content: left;
+}
+
+footer .footer-right {
+    justify-content: right;
+}
+
+footer ul li a {
+    margin: 10px;
+    color: rgb(67, 67, 71);
 }

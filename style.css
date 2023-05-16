@@ -10,6 +10,11 @@ a {
     cursor: pointer;
 }
 
+p {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 header {
     width: 100%;
     height: 60px;
@@ -42,7 +47,7 @@ nav .nav-principal img {
 }
 
 main {
-    margin-top: 150px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -51,8 +56,8 @@ main .logo-principal {
     width: 530px;
 }
 
-main .logo-principal img {
-    width: 372px;
+main .logo-principal #Google {
+    width: 352px;
     height: 120px;
 }
 
@@ -119,12 +124,61 @@ main .botones button {
     border-radius: 5px;
     padding: 0 15px;
     margin-right: 15px;
+    margin-bottom: 20px;
 }
 
 main .botones button:hover {
     box-shadow: 0 1px 6px 0 rgb(137, 137, 137);
     border: 2px solid #8cd309;
 }
+
+
+
+main .Accesos-directos1 .Iconos-Accesos1 {
+    display: inline-block;
+}
+
+main .Accesos-directos2 .Iconos-Accesos2 {
+    display: inline-block;
+}
+
+main .Accesos-directos1 .Iconos-Accesos1 img {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 40%;
+}
+
+main .Accesos-directos2 .Iconos-Accesos2 img {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 40%;
+}
+
+main .Accesos-directos1 .Iconos-Accesos1:hover {
+    box-shadow: 0 1px 6px 0 rgb(137, 137, 137);
+    border: 2px solid #8f918d;
+}
+
+main .Accesos-directos2 .Iconos-Accesos2:hover {
+    box-shadow: 0 1px 6px 0 rgb(137, 137, 137);
+    border: 2px solid #8f918d;
+}
+
+main section div p {
+    color: black;
+}
+
+
 
 footer {
     width: 100%;
